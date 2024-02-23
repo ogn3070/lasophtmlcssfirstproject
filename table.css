@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, tr, th, td {
+    border: 1px solid;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+
+    background-color: aqua;
+}
+
+tbody tr:nth-child(odd) {
+
+    background-color: black;
+    color: white;
+}
+
+table thead {
+    background-color: chartreuse;
+}
